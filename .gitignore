@@ -1,0 +1,38 @@
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Build directories and files
+/build/
+bin/
+
+# Dependency directories (for vendoring)
+vendor/
+
+# Go module files
+go.sum
+
+# IDE/editor specific files
+.vscode/
+.idea/
+*.iml
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Coverage reports
+*.cover
+*.cov
+coverage.out
+
+# Operating system files
+.DS_Store
+Thumbs.db
